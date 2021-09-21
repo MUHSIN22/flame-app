@@ -1,0 +1,31 @@
+.check-result-wrapper{
+    .check-result{
+        height:100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 1rem;
+        text-align: center;
+        p{
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            color: yellow;
+            line-height: 2;
+            font-weight: 600;
+        }
+        
+    }
+    .button-wrapper{
+        display: flex;
+        button{
+            background: #F9537B;
+            text-decoration: none;
+            font-weight: 600;
+            color: #fff;
+            border-radius: 5px;
+            padding: 0.6rem 2rem;
+            margin: 0 auto;
+            border: none;
+        }
+    }
+}

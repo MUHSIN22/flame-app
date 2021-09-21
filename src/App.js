@@ -1,7 +1,11 @@
+import { EssentialProvider } from "./Assets/EssentialContext";
+import Home from "./Components/Home/Home";
 
 function App() {
   return (
-    <h1>Let's start</h1>
+    <EssentialProvider>
+     <Home/>
+    </EssentialProvider>
   );
 }
 

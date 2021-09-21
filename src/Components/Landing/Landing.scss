@@ -1,0 +1,21 @@
+@import '../../variables';
+.landing{
+    width:100%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 1rem;
+    position: relative;
+    h1{
+        font-family: $dancingScript;
+        color: #fff;
+        font-size: 3.5rem;
+    }
+    img{
+        position: absolute;
+        width:3rem;
+        height: 3rem;
+        right: 25%;
+        bottom: 56%;
+    }
+}

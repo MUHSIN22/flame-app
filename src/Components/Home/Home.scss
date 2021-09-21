@@ -1,0 +1,11 @@
+@import '../../variables';
+.home{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    overflow: hidden;
+    max-width: 500px;
+    max-height: 800px;
+    background: $mainBGColor;
+}
